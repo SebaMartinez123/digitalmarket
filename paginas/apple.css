@@ -33,6 +33,48 @@ nav {
     grid-template-rows: 5.5rem;
 }
 
+
+@keyframes titulo_animacion{
+    0%{ height: 0%; }
+    1%{ width: 100%;
+    background-color: rgb(42, 130, 136); }
+    0%{ width: 0%}
+    100%{ width:100%;
+    background-color:rgb(93, 211, 238);}
+}
+
+section{
+    padding: 150px auto auto auto;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(167, 225, 238);
+    animation-name:titulo_animacion;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-out;
+    animation-duration: 9s;
+    animation-delay: 0s;
+}
+
+@keyframes animacion_footer{
+    0%{ height: 0%; }
+    1%{ width: 100%;
+    background-color: rgb(42, 130, 136); }
+    0%{ width: 0%}
+    100%{ width:100%;
+    background-color:rgb(93, 211, 238);}
+
+    }
+.footer__Background{
+    width: 100%;
+    height: 300%;
+    background-color: rgb(167, 225, 238);
+    animation-name: animacion_footer;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
 .grid-item1 {
     display: grid;
     grid-template-columns: auto;
@@ -65,7 +107,6 @@ nav {
     justify-content: center;
     grid-column-start: 2;
     grid-column-end: 3;
-    
     grid-row-start: 2;
     grid-row-end: 1;
 }
