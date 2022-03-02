@@ -1,0 +1,185 @@
+*
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px auto auto auto;
+    grid-template-rows: repeat(12, 80px);
+}
+
+header  {
+    grid-column: 1 / span 4;
+}
+
+footer {
+    grid-column: 1 / span 4;
+    grid-row:  11 / 12;
+}
+
+main {
+    grid-column: 1 /span 3;
+    grid-row: 2 /span 7;
+}
+
+nav {
+    background-color: rgba(26, 160, 160, 0.686);
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: 5.5rem;
+}
+
+.grid-item1 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: (6, 100px);
+}
+
+.Sticky {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+    .grid-item1 {
+        grid-column: 1 /span 2;
+    }
+}
+
+.Logohome{
+    margin-left: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.Navegador {
+    display: flex;
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    grid-row-start: 2;
+    grid-row-end: 1;
+}
+
+.Navegador__Lista {
+    text-decoration: none;
+    color: black;
+}
+
+.Navegador li {
+    display: inline;
+}
+
+.texto__iphone {
+    display: flex;
+    flex-shrink: 1;
+    margin-top: 0px;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.titulo__iphone {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    padding: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.imagen__iphone {
+    display: flex;
+    padding-left: 300px;
+    padding-bottom: 100px;
+
+}
+.imagen__fondo {
+    display: flex;
+    padding-top: 0px;
+    padding-left: 310px;
+    background-image: linear-gradient(rgb(119, 165, 214),rgb(93, 181, 187));
+    
+    
+
+}
+
+.footer__Background {
+    background-color: rgba(26, 160, 160, 0.686);
+    margin: 0%;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.footer__Copyright {
+    display: flex;
+    color: black);
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+
+
+.footer__CopyTexto {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.imgredes{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.footer__Redes {
+    margin: 0px
+}
+
+.footer__Titulo {
+    margin: 5px
+}
+
+.footer__Descripcion {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.footer__Contacto {
+    margin: 15px 10px 5px 5px;
+    text-decoration-style: none;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+
+.footer__Texto {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    flex-shrink: 3;
+}
+
+
+
